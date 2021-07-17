@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Hadi A. Elnemr | blank</title>
+<title>Hadi A. Elnemr | Programming your ATMega328p using Eclipse IDE instead of Microchip/Atmel Studio</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -31,7 +31,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2021/Using-Eclipse-to-program-your-AtMega328p/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -203,32 +203,47 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1>Blog</h1>
-    <h2></h2>
-  </div>
+<div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">Programming your ATMega328p using Eclipse IDE instead of Microchip/Atmel Studio</h1>
+    <p class="post-meta">July 16, 2021</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/Using-Eclipse-to-program-your-AtMega328p/">Programming your ATMega328p using Eclipse IDE instead of Microchip/Atmel Studio</a></h3>
-        <p class="post-meta">July 16, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/A-new-project/">A new project!</a></h3>
-        <p class="post-meta">March 13, 2021</p>
-        <p></p>
-      </li>
-    
-  </ul>
+  <article class="post-content">
+    <p>We had a course in which we used ATMega328p to do some mini projects. To program the AVR, we used Microchip Studio 
+which is available only on windows. To burn the code on the chip using Linux, I found some resources referring to using Eclipse IDE.
+I tried to follow the instructions to setup the IDE by but there was always an issue with the avr. After installing the additional plugin of 
+avr into Eclipse, there was always an option missing after creating a project and that was to setup the avr programming through Eclipse, i.e. 
+the option of choosing how to burn the code into the chip was missing after creating a blank avr gcc project. After a lot of searching 
+and nearly giving up, I found a comment inside a forum that said to add the following line to the <b>.project</b> file located inside 
+your Eclipse IDE avr gcc project, where the line will be added with the lines containing the <b>nature</b> tag.</p>
+
+<figure class="highlight"><pre><code class="language-xml" data-lang="xml"><span class="nt">&lt;nature&gt;</span> de.innot.avreclipse.core.avrnature <span class="nt">&lt;/nature&gt;</span></code></pre></figure>
+
+<p>After adding them and restarting Eclipse, 
+it worked well the next steps of setting up the programmer were easy. I used the USB-ASP programming as the board I had was made to be programmed
+with it as far as I understood. I realized that Eclipse was very easy to use with the chip with its wonderful shortcuts and user experience that 
+I was familiar with.</p>
+
+  </article>
 
   
-
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname  = 'Hadi Elnemr';
+      var disqus_identifier = '/blog/2021/Using-Eclipse-to-program-your-AtMega328p';
+      var disqus_title      = "Programming your ATMega328p using Eclipse IDE instead of Microchip/Atmel Studio";
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  
 
 </div>
 

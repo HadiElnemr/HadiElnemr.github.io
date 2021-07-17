@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Hadi A. Elnemr | blank</title>
+<title>Hadi A. Elnemr | Numerical Analysis</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -31,7 +31,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/notes/Numerical%20Analysis/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -106,7 +106,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -205,30 +205,33 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>Blog</h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Numerical Analysis</h1>
+    <p class="post-description">ENME 602</p>
+  </header>
+
+  <article>
+    <p>These are some notes written in markdown regarding the subject. Contributions are welcome indeed.
+/br
+In this course several important numerical techniques are studied to solve different problems that are difficult to sove analytically or even impossible, or to solve equations in faster ways.
+/br</p>
+<h1>Bisection Method</h1>
+<p>If you have a continuous function that has a root in an interval \([a,b]\) where \(f(a) * f(b) &lt; 0\), then the root can be found.</p>
+
+<h2>Algorithm</h2>
+<ol>
+  <li>Calculate c, the midpoint of the interval, 
+\(c = (a + b)/2\).</li>
+  <li>Calculate the function value at the midpoint, \(f(c)\).</li>
+  <li>If convergence is satisfactory (that is, \(c - a\) is sufficiently small, or \(abs(f(c))\) is sufficiently small), return c and stop iterating.</li>
+  <li>Examine the sign of f(c) and replace either \((a, f(a))\) or \((b, f(b))\) with \((c, f(c))\) so that there is a zero crossing within the new interval.</li>
+</ol>
+
+<h2>Analysis</h2>
+<p>To calculate number of needed iterations \(n\) to reach absolute error tolerance \(\epsilon = |c_{n}-c|\geq {\frac {|b-a|}{2^{n}}}\), so number of iterations should be at least \(n \geq \log_2{\frac{|b-a|}{c_{n}-c}}\).</p>
 
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/Using-Eclipse-to-program-your-AtMega328p/">Programming your ATMega328p using Eclipse IDE instead of Microchip/Atmel Studio</a></h3>
-        <p class="post-meta">July 16, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/A-new-project/">A new project!</a></h3>
-        <p class="post-meta">March 13, 2021</p>
-        <p></p>
-      </li>
-    
-  </ul>
-
-  
-
+  </article>
 
 </div>
 
