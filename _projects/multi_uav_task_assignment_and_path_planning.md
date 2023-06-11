@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Multi UAV Task Assignment and Path Planning
-description: MCTR 1002
+description: Metaheuristic Optimization Techniques for Multi-Cooperative Systems
 # img:  /assets/img/Numerics_icon.jpeg
 importance: 1
 github: https://github.com/HadiElnemr/UAVs-Task-Assignment-and-Path-Planning
