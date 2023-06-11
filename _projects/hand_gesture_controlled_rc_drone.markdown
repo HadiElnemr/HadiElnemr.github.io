@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Numerical Analysis
-description: ENME 602
-img:  /assets/img/Numerics_icon.jpeg
+title: Hand Gesture Controlled RC Drone
+description: Sensors Course
+# img:  /assets/img/Numerics_icon.jpeg
 importance: 4
-github:
+github: HadiElnemr/Hand-Gesture-Controlled-Drone
 category: Course Project
 ---

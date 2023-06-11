@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Numerical Analysis
-description: ENME 602
-img:  /assets/img/Numerics_icon.jpeg
+title: 4 DOF Robot Arm
+description: Robotics Course
+# img:  /assets/img/Numerics_icon.jpeg
 importance: 4
-github:
+# github:
 category: Course Project
 ---
