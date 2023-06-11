@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://hadielnemr.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hadielnemr.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-11T20:02:54+00:00</updated><id>https://hadielnemr.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">My Thesis!</title><link href="https://hadielnemr.github.io/blog/2022/My-Thesis/" rel="alternate" type="text/html" title="My Thesis!" /><published>2022-06-23T00:00:00+00:00</published><updated>2022-06-23T00:00:00+00:00</updated><id>https://hadielnemr.github.io/blog/2022/My-Thesis</id><content type="html" xml:base="https://hadielnemr.github.io/blog/2022/My-Thesis/"><![CDATA[<p>My bachelor thesis topic’s name is <em>Lane-level Map Matching for Model-scale Vehicles</em>, doing it at <a href="https://www.rwth-aachen.de/">RWTH Aachen</a>, Germany.</p>
+
+<p>The exposé for my topic is here:</p>
+<object data="https://hadielnemr.github.io/Expose_Elnemr.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://hadielnemr.github.io/Expose_Elnemr.pdf" />
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://hadielnemr.github.io/Expose_Elnemr.pdf">Download PDF</a>.</p>
+    &lt;/embed&gt;
+</object>
+
+<p>This opportunity was provided by <a href="https://embedded.rwth-aachen.de/doku.php?id=en:lehrstuhl:mitarbeiter:alrifaee">Dr.-Ing. Bassam Alrifae</a> and my work was supervised by <a href="https://embedded.rwth-aachen.de/doku.php?id=en:lehrstuhl:mitarbeiter:schaefer">Simon Schäfer M.Sc.</a>, and the work is done under the <a href="https://embedded.rwth-aachen.de/doku.php?id=en:forschung:mobility">Cyber-Physical Mobility Group</a></p>
+
+<p>The map matching problem arises in the field of autonomous vehicles where the position of a vehicle is obtained using GNSS sensors on the vehicle.
+Like many types of sensors, GNSS data involves errors arising from the idea of how satellites work to find the position of a moving vehicle.
+Map matching a moving vehicle to an HD map using this distorted GNSS data is well known challenge.
+Many algorithms where implemented and tested to address this specific problem.</p>
+
+<p>An approach using Hidden Markov Model algorithm was implemented and tested by <a href="https://dl.acm.org/doi/abs/10.1145/1653771.1653818">Newson and Krumm, 2009</a> which was successful and paved the road for many papers later that addressed this problem.</p>
+
+<p>The work be Newson and Krumm is considered to be <em>road-level</em> map matching.</p>
+
+<p>In this thesis, the objective is to implement the HMM algorithm so support <em>lane-level</em> map matching using GNSS data and data acquired by the vehicle itself such the heading, yaw rate etc.</p>
+
+<!-- <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6972286552882225152" height="1111" width="504" frameborder="0" allowfullscreen="" title="Embedded post"  scrolling="no"></iframe> -->
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6972286552882225152" allowfullscreen="" title="Embedded post" width="504" height="1102" frameborder="0"></iframe>]]></content><author><name></name></author><summary type="html"><![CDATA[My bachelor thesis topic’s name is Lane-level Map Matching for Model-scale Vehicles, doing it at RWTH Aachen, Germany.]]></summary></entry><entry><title type="html">Bachelor Thesis in Germany for a GUC student</title><link href="https://hadielnemr.github.io/blog/2022/Thesis/" rel="alternate" type="text/html" title="Bachelor Thesis in Germany for a GUC student" /><published>2022-03-24T00:00:00+00:00</published><updated>2022-03-24T00:00:00+00:00</updated><id>https://hadielnemr.github.io/blog/2022/Thesis</id><content type="html" xml:base="https://hadielnemr.github.io/blog/2022/Thesis/"><![CDATA[<p>For a GUC engineering student, there are 3 ways to do your bachelor project and write your thesis:</p>
+
+<ol>
+  <li>A GUC topic in Egypt</li>
+  <li>A GUC topic in Germany</li>
+  <li>A topic that you got from outside of the GUC</li>
+</ol>
+
+<h2 id="1-a-guc-topic-in-egypt">1. A GUC topic in Egypt</h2>
+
+<p>The university offers a lot of topics under its Phd staff where you can take a topic from a long list with a doctor whether he is from the same department or from another one. You choose all the topics in the order you want and wait for the announcement of your topic.</p>
+
+<h2 id="2-a-guc-topic-in-germany">2. A GUC topic in Germany</h2>
+
+<p>The university contacts doctors at German universities and reserve some bachelor thesis positions under their supervision. The list of topics is around 30 to 40 topics. You can choose to take a thesis abroad.</p>
+
+<p>If you are a high ranked student at your major you can get a scholarship to cover most of your travel and stay expenses there. This will be discussed in another point.</p>
+
+<p>The universities examples are Ulm, Stuttgart, Munchen, Aachen, Lubeck, Berlin, Schmalkalden, etc.</p>
+
+<h2 id="3-your-own-topic-free-mover">3. Your own topic (Free mover)</h2>
+
+<p>You can contact a doctor from a university abroad and let him send you an invitation letter from his university to do your bechelor project there. You should contact many doctors and try to find contacts to get a topic there. The process and tips could be discussed in a separate post.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[For a GUC engineering student, there are 3 ways to do your bachelor project and write your thesis:]]></summary></entry><entry><title type="html">Programming your ATMega328p using Eclipse IDE instead of Microchip/Atmel Studio</title><link href="https://hadielnemr.github.io/blog/2021/Eclipse-AtMega328p/" rel="alternate" type="text/html" title="Programming your ATMega328p using Eclipse IDE instead of Microchip/Atmel Studio" /><published>2021-07-16T00:00:00+00:00</published><updated>2021-07-16T00:00:00+00:00</updated><id>https://hadielnemr.github.io/blog/2021/Eclipse-AtMega328p</id><content type="html" xml:base="https://hadielnemr.github.io/blog/2021/Eclipse-AtMega328p/"><![CDATA[<p>We had a course in which we used ATMega328p to do some mini projects. To program the AVR, we used Microchip Studio 
+which is available only on windows. To burn the code on the chip using Linux, I found some resources referring to using Eclipse IDE.
+I tried to follow the instructions to setup the IDE by but there was always an issue with the avr. After installing the additional plugin of 
+avr into Eclipse, there was always an option missing after creating a project and that was to setup the avr programming through Eclipse, i.e. 
+the option of choosing how to burn the code into the chip was missing after creating a blank avr gcc project. After a lot of searching 
+and nearly giving up, I found a comment inside a forum that said to add the following line to the <b>.project</b> file located inside 
+your Eclipse IDE avr gcc project, where the line will be added with the lines containing the <b>nature</b> tag.</p>
+
+<figure class="highlight"><pre><code class="language-xml" data-lang="xml"><span class="nt">&lt;nature&gt;</span> de.innot.avreclipse.core.avrnature <span class="nt">&lt;/nature&gt;</span></code></pre></figure>
+
+<p>After adding them and restarting Eclipse, 
+it worked well the next steps of setting up the programmer were easy. I used the USB-ASP programming as the board I had was made to be programmed
+with it as far as I understood. I realized that Eclipse was very easy to use with the chip with its wonderful shortcuts and user experience that 
+I was familiar with.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[We had a course in which we used ATMega328p to do some mini projects. To program the AVR, we used Microchip Studio which is available only on windows. To burn the code on the chip using Linux, I found some resources referring to using Eclipse IDE. I tried to follow the instructions to setup the IDE by but there was always an issue with the avr. After installing the additional plugin of avr into Eclipse, there was always an option missing after creating a project and that was to setup the avr programming through Eclipse, i.e. the option of choosing how to burn the code into the chip was missing after creating a blank avr gcc project. After a lot of searching and nearly giving up, I found a comment inside a forum that said to add the following line to the .project file located inside your Eclipse IDE avr gcc project, where the line will be added with the lines containing the nature tag. &lt;nature&gt; de.innot.avreclipse.core.avrnature &lt;/nature&gt; After adding them and restarting Eclipse, it worked well the next steps of setting up the programmer were easy. I used the USB-ASP programming as the board I had was made to be programmed with it as far as I understood. I realized that Eclipse was very easy to use with the chip with its wonderful shortcuts and user experience that I was familiar with.]]></summary></entry><entry><title type="html">A new project!</title><link href="https://hadielnemr.github.io/blog/2021/A-new-project/" rel="alternate" type="text/html" title="A new project!" /><published>2021-03-13T00:00:00+00:00</published><updated>2021-03-13T00:00:00+00:00</updated><id>https://hadielnemr.github.io/blog/2021/A-new-project</id><content type="html" xml:base="https://hadielnemr.github.io/blog/2021/A-new-project/"><![CDATA[<p>Lately, I found about <a href="https://pages.github.com/">GitHub Pages</a> and became very excited to make my personal website. 
+I found <a href="https://jekyllrb.com/">Jekyll</a> which is somehow very connected to GitHub Pages and provides some themes that can help you 
+with a blog and so on. I then found <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme made by 
+<a href="https://www.cs.cmu.edu/~mshediva/">Alshedivat</a> which is also an amazing theme as it is intended for academics and provides 
+a page for blogs and is very organized and easy to use. Take a look at the theme 
+<a href="https://alshedivat.github.io/al-folio/" target="_blank">here</a>.</p>
+
+<p>I cloned the theme right away and started customizing by disabling the unneeded but great features and there we go, as simple as that. The posts in the blog come with a lot of features and additions that are really great, the posts can have</p>
+<ul>
+  <li>comments,</li>
+  <li>code snippets with highlights according to the language used,</li>
+  <li>images that can be organized in the way you want,</li>
+  <li>maths equations,</li>
+  <li>formats and links,</li>
+  <li>and much more.</li>
+</ul>
+
+<p>Also you can connect your webpage to Google Analytics!
+The theme can be used as a portfolio or as a <a href="/Hadi%20Elnemr%20Resume.pdf" target="_blank">cv</a> to access your public information by employers, events organizers and so on. Dark mode is also included in the theme. You can also change the colours in the theme using provided variables with suitable colours. The writing of posts and addition in projects section are easy and are made using a simple markdown with Liquid code.</p>
+
+<p>I intend to use this website as a ‘portfolio’ and blog. More additions are coming soon.</p>
+
+<hr />
+<p><em>examples:</em></p>
+
+<p><strong>code snippet:</strong></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">function</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+<span class="nf">function</span><span class="p">(</span><span class="sh">"</span><span class="s">Code Snippet</span><span class="sh">"</span><span class="p">)</span> </code></pre></figure>
+
+<hr />
+<p><strong>mathematical equation:</strong></p>
+
+\[E = m c^2\]
+
+\[\sum_{i=1}^{n}i = 1+2+3+ ... +n = {n(n+1) \over {2}}\]]]></content><author><name></name></author><summary type="html"><![CDATA[Lately, I found about GitHub Pages and became very excited to make my personal website. I found Jekyll which is somehow very connected to GitHub Pages and provides some themes that can help you with a blog and so on. I then found al-folio theme made by Alshedivat which is also an amazing theme as it is intended for academics and provides a page for blogs and is very organized and easy to use. Take a look at the theme here.]]></summary></entry></feed>
