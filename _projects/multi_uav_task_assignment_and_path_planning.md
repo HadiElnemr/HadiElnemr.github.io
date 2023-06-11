@@ -113,10 +113,10 @@ The project has demonstrated how to solve the Multi UAV Task Assignment and Path
 The source code for the project is available on [GitHub](https://github.com/HadiElnemr/UAVs-Task-Assignment-and-Path-Planning).
 
 ## Authors
-    - [Hadi Elnemr](https://github.com/HadiElnemr)
-    - [David Micheal](https://github.com/DavidMicheal)
-    - [Mohammed Ashraf]()
-    - [Ahmed Fathy](https://github.com/AhmedFathyAbdelkhalek)
+ - [Hadi Elnemr](https://github.com/HadiElnemr)
+ - [David Micheal](https://github.com/DavidMicheal)
+ - [Mohammed Ashraf]()
+ - [Ahmed Fathy](https://github.com/AhmedFathyAbdelkhalek)
   
 <!-- 
 ## License
