@@ -4,6 +4,7 @@ title: Bachelor Thesis
 description: Lane-level Map Matching Algorithm for Model-scale Vehicles
 #img: /assets/img/mctr_project/robot.png
 importance: 1
+category: Bachelor Thesis
 ---
 <!--- <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/mctr_project/robot.png' | relative_url }}" alt="" title="example image"/>
 <div class="caption">

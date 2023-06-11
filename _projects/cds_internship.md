@@ -4,6 +4,7 @@ title: Networked control systems Internship
 description: Control and Dynamic Systems Lab Internship
 #img: /assets/img/mctr_project/robot.png
 importance: 1
+category: Internship
 ---
 In this internship we implemented a communication system between 
 a raspberry pi 4 (will be put on a quadcopter) and a PC where we 

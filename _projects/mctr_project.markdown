@@ -4,6 +4,7 @@ title: Self Balancing Robot
 description: Mechatronics Course Project
 img: /assets/img/mctr_project/robot.png
 importance: 1
+category: Course Project
 ---
 <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/mctr_project/robot.png' | relative_url }}" alt="" title="example image"/>
 <div class="caption">

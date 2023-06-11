@@ -5,6 +5,7 @@ description: MCTR 1002
 # img:  /assets/img/Numerics_icon.jpeg
 importance: 1
 github: https://github.com/HadiElnemr/UAVs-Task-Assignment-and-Path-Planning
+category: Course Project
 ---
 
 <!-- write a markdown page about our optimisation techniques course where we tackled the MUTAPP problem using 4 different approaches--> 
