@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /  
-subtitle: Graduating Mechatronics Engineering Student at the [German University in Cairo](https://guc.edu.eg). Address. Contacts. Moto. Etc.
+subtitle: Graduating Mechatronics Engineering Student at the German University in Cairo 
+
+#[German University in Cairo](https://guc.edu.eg). Address. Contacts. Moto. Etc.
 
 profile:
   align: right
