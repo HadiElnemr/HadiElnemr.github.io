@@ -1,12 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - HadiElnemr
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - HadiElnemr/UAVs-Task-Assignment-and-Path-Planning
+  - HadiElnemr/Hand-Gesture-Controlled-Drone
+  - HadiElnemr/Mechanism-Analysis
+  - HadiElnemr/Self-Balancing-Robot-Arduino-Code
+  - AhmedFathyAbdelkhalek/MAVLink-UDP-Server
+  - AhmedFathyAbdelkhalek/Python-Socket-Web-Server
+  - HadiElnemr/Fire-Predictor 
+  - HadiElnemr/G-Codes-Sinumerik-840-D
+  - HadiElnemr/FluidSim-simulations 
+  - HadiElnemr/LZ-Compression 
