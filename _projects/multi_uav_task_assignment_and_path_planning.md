@@ -11,7 +11,7 @@ category: Course Project
 <!-- write a markdown page about our optimisation techniques course where we tackled the MUTAPP problem using 4 different approaches--> 
 
 
-# Multi UAV Task Assignment and Path Planning
+<!-- # Multi UAV Task Assignment and Path Planning -->
 
 In this project, we study multiple optimisation techniques to tackle the task assignment and path planning problem for multi Unmanned Aerial Vehicles (UAVs).
 
@@ -110,12 +110,15 @@ The project has demonstrated how to solve the Multi UAV Task Assignment and Path
 
 ## Source Code
 
-The source code for the project is available on [GitHub](
+The source code for the project is available on [GitHub](https://github.com/HadiElnemr/UAVs-Task-Assignment-and-Path-Planning).
 
-## Author
-    
-    [![Author](/assets/img/multi_uav_task_assignment_and_path_planning/author.png)](/assets/img/multi_uav_task_assignment_and_path_planning/author.png)
-
+## Authors
+    - [Hadi Elnemr](https://github.com/HadiElnemr)
+    - [David Micheal](https://github.com/DavidMicheal)
+    - [Mohammed Ashraf]()
+    - [Ahmed Fathy](https://github.com/AhmedFathyAbdelkhalek)
+  
+<!-- 
 ## License
     
     [![License](/assets/img/multi_uav_task_assignment_and_path_planning/license.png)](/assets/img/multi_uav_task_assignment_and_path_planning/license.png)
@@ -145,6 +148,5 @@ The source code for the project is available on [GitHub](
     [![Social Media](/assets/img/multi_uav_task_assignment_and_path_planning/social_media.png)](/assets/img/multi_uav_task_assignment_and_path_planning/social_media.png)
 
 ## GitHub
-    
-    [![GitHub](/assets/img/multi_uav_task_assignment_and_path_planning/github.png)](/assets/img/multi_uav_task_assignment_and_path_planning/github.png)
+     -->
 
