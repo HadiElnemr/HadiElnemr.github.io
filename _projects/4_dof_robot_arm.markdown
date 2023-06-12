@@ -52,3 +52,11 @@ The arm is fairly simple in terms of components and assembly. The design was 3D 
 </div>
 
 
+### Team members
+
+ - [Hadi Elnemr](https://github.com/HadiElnemr)
+ - [David Micheal](https://github.com/DavidMicheal)
+ - [Mohammed Ashraf](https://github.com/MohammedAshraf965)
+ - [Ahmed Fathy](https://github.com/AhmedFathyAbdelkhalek)
+
+
