@@ -24,7 +24,7 @@ This project was part of our robotics course at the GUC. We were instructed to r
 The humanoid arm is based on the infamous poppy humanoid, developed by Matthieu Lapeyre, Pierre Rouanet, and Jonathan Grizou. The original design was modified by the addition of a robotic gripper to replace the hand. The gripper is designed in SOLIDWORKS, and there were several iterations before reaching a final design that was optimal for our needs.
 
 <!-- Add image -->
-<img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/robotics_course/gripper.png' | relative_url }}" alt="" title="example image"/>
+<img class="img-fluid rounded z-depth-1 justify-content-sm-center" src="{{ '/assets/img/robotics_course/gripper.png' | relative_url }}" alt="" title="example image"/>
 <div class="caption">
    The final gripper design
 </div>
