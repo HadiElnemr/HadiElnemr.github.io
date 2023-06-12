@@ -29,3 +29,12 @@ Three gestures are defined: the first is up, where the index finger is up. This 
 <div class="caption">
    The Team: David Michael, Hadi Elnemr, Ahmed Fathy, Mohammed Ashraf, Ahmed Shaban. (Left to right)
 </div>
+
+
+### Team members
+
+ - [David Micheal](https://github.com/DavidMicheal)
+ - [Hadi Elnemr](https://github.com/HadiElnemr)
+ - [Ahmed Fathy](https://github.com/AhmedFathyAbdelkhalek)
+ - [Mohammed Ashraf](https://github.com/MohammedAshraf965)
+ - [Ahmed Shaban]()
