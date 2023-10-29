@@ -2,7 +2,7 @@
 layout: page
 title: 4 DOF Humanoid Robot Arm
 description: Robotics Course
-img:  /assets/img/poppy.gif
+img:  /assets/img/robotics_course/poppy.gif
 importance: 4
 # github:
 category: Course Project
@@ -48,6 +48,10 @@ The arm is fairly simple in terms of components and assembly. The design was 3D 
    Assembly of the arm
 </div>
 
+### Simulation
+
+We simulated the design on Matlab Multibody. We came up with some joints positions to do path planning and visualise it. The result came as follows:
+![](/assets/img/robotics_course/poppy.gif)
 
 ### Team members
 
