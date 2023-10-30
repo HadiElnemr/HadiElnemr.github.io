@@ -50,7 +50,7 @@ The arm is fairly simple in terms of components and assembly. The design was 3D 
 
 ### Simulation
 
-We simulated the design on Matlab Multibody. We came up with some joints positions to do path planning and visualise it. The result came as follows:
+We simulated the design on Matlab Simscape Multibody. We came up with some joints positions to do path planning and visualise it. The result came as follows:
 ![](/assets/img/robotics_course/poppy.gif)
 
 ### Team members
