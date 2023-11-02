@@ -2,7 +2,7 @@
 layout: page
 title: Bond Graph Project
 description: Bond Graph Course
-# img:  /assets/img/autonomous/hardware.jpg
+img:  /assets/img/bond_graph/exoskeleton/full_bond_graph.png
 importance: 4
 # github: https://github.com/HadiElnemr/
 category: Course Project
