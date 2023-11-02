@@ -2,7 +2,7 @@
 layout: page
 title: Multi UAV Task Assignment and Path Planning
 description: Metaheuristic Optimization Techniques for Multi-Cooperative Systems
-# img:  /assets/img/Numerics_icon.jpeg
+img:  /assets/img/multi_uav_task_assignment_and_path_planning/h_aco_woa.png
 importance: 1
 github: https://github.com/HadiElnemr/UAVs-Task-Assignment-and-Path-Planning
 category: Course Project
@@ -15,7 +15,7 @@ category: Course Project
 
 In this project, we study multiple optimisation techniques to tackle the task assignment and path planning problem for multi Unmanned Aerial Vehicles (UAVs).
 
-This problem, abbreviated as MUTAPP problem, is considered an NP-hard problem and can be described as a Multi Travelling Salesman Problem (MTSP).
+This Mutli UAV Target Assignment and Path Planning problem, abbreviated as **MUTAPP**, is considered an NP-hard problem (Non-deterministic Polynomial time) and can be described as a Multi Travelling Salesman Problem (MTSP).
 
 We encounter solutions such as Simulated Annealing (SA), Genetic Algorithm (GA), Hybrid Ant Colony Optimisation and Whale Optimisation Algorithm (H-ACO-WOA), and Hybrid ACO and Dragonfly Algorithm (H-ACO-DA).
 
@@ -26,8 +26,6 @@ The project is implemented in Python and the results are visualised using the Ma
 The MUTAPP problem is a multi-agent optimisation problem where a set of UAVs are tasked to visit a set of targets. The targets are assumed to be static and the UAVs are assumed to be identical. The UAVs are assumed to have a limited battery life and the targets are assumed to have a limited lifetime. The objective is to minimise the total cost of the mission, which is the sum of the cost of the UAVs and the cost of the targets.
 
 The cost of the UAVs is the sum of the distance travelled by each UAV and the cost of the targets is the sum of the time each target is visited by a UAV.
-
-The problem is considered an NP-hard problem and can be described as a Multi Travelling Salesman Problem (MT
 
 ## Solution Approaches
 
