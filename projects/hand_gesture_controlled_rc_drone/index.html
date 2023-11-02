@@ -131,16 +131,71 @@
 
 <p>We purchased a toy drone from a local seller and hacked its PCB to attach an H-bridge. This then allows us to change the speed of the DC motor controlling the rotor using pulse width modulation (PWM). The Python library CVZone library is used to detect hand gestures through a pre-trained computer vision model. In this implementation, we used it to detect which fingers on a hand are up. It is configured to use an initial gesture before tracking the hand’s gestures. This allows it to focus on one hand only if multiple people are in the frame.</p>
 
-<p><img class="img-fluid rounded z-depth-1" src="/assets/img/sensors_course/hardware.jpg" alt="" title="example image"></p>
+<p><img class="img-fluid rounded z-depth-1" src="/assets/img/sensors_course/hardware.jpg" alt="" title="Hardware Assembly"></p>
 <div class="caption">
    Hardware Assembly
 </div>
 
 <p>Three gestures are defined: the first is up, where the index finger is up. This rotates the drone’s rotors at maximum speed to produce thrust and propel the drone upward. The second is down, where both the index and middle fingers are up simultaneously. This reduces the rotor speed to allow for a slow descent of the drone. The last is off, where the index, middle, and ring fingers are up. This completely turns off the drone rotors. Gestures are processed, then sent wirelessly to a NodeMCU, which controls the motor’s PWM.</p>
 
-<p><img class="img-fluid rounded z-depth-1" src="/assets/img/sensors_course/team.jpg" alt="" title="example image"></p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/sensors_course/Up-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/sensors_course/Up-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/sensors_course/Up-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/sensors_course/Up.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Up" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/sensors_course/Off-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/sensors_course/Off-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/sensors_course/Off-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/sensors_course/Off.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Hold" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/sensors_course/Down-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/sensors_course/Down-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/sensors_course/Down-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/sensors_course/Down.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Down" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
 <div class="caption">
-   The Team: David Michael, Hadi Elnemr, Ahmed Fathy, Mohammed Ashraf, Ahmed Shaban. (Left to right)
+    Template Matching using opencv to verify the results.
 </div>
 
 <h3 id="team-members">Team members</h3>
@@ -153,6 +208,11 @@
   <li><a href="">Ahmed Shaban</a></li>
 </ul>
 
+<p><img class="img-fluid rounded z-depth-1" src="/assets/img/sensors_course/team.jpg" alt="" title="Team members"></p>
+<div class="caption">
+   The Team: David Michael, Hadi Elnemr, Ahmed Fathy, Mohammed Ashraf, Ahmed Shaban. (Left to right)
+</div>
+
           </article>
 
         </div>
@@ -164,7 +224,7 @@
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2023 Hadi  Elnemr. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
-Last updated: October 31, 2023.
+Last updated: November 02, 2023.
       </div>
     </footer>
 
