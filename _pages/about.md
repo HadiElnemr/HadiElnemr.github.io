@@ -11,7 +11,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Vaihingen, Stuttgart, Germany</p>
+    <p>Stuttgart, Germany</p>
 # <p>from Nasr City, Cairo, Egypt</p>
 
 news: false  # includes a list of news items

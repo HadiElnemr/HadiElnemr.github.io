@@ -5,7 +5,7 @@ permalink: /projects/
 description: Projects done during courses, internships or competitions  
 nav: true
 nav_order: 2
-display_categories: [Bachelor Thesis, Course Project, Internship] #[work, uni, competitions, fun]
+display_categories: [Bachelor Thesis, Course Projects, Internships] #[work, uni, competitions, fun]
 horizontal: false
 ---
 
