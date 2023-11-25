@@ -90,14 +90,19 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2018
-      items: 
-        - Ranked 98th on Egyptian General Secondary (Thanawya Amma) Amongst +600,000 students 
-        - 70% Scholarship for Bachelor's studies in the German University in Cairo
+    - year: 2023
+      items:
+        - DAAD Full Scholarship recipient for pursuing the Master of Science in Infotech program at Stuttgart University.
+
     - year: 2022
-      items: 
-        - Ranked 1st on Mechatronics Engineering at the German University in Cairo
-        - Full Scholarship 6 months Bachelor Thesis at RWTH Aachen, Germany in the CPM Lab
+      items:
+        - Ranked 1st on Mechatronics Engineering at the German University in Cairo (Comulative GPA after 6th semester)
+        - Full Scholarship 6 months Bachelor Thesis at RWTH Aachen, Germany. (CPM Lab in the chair of Embedded Software (Informatik 11))
+ 
+    - year: 2018
+      items:
+        - Ranked 98th on Egyptian General Secondary (Thanawya Amma) Amongst +600,000 students
+        - 70% Scholarship for Bachelor's studies in the German University in Cairo
 
 - title: Academic Interests
   type: nested_list
