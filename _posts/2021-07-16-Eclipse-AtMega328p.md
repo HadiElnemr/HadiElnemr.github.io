@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  Programming your ATMega328p using Eclipse IDE instead of Microchip/Atmel Studio
-Date:   2021-07-16 11:12:00-0400
+Date:   2021-07-16 11:12:00-
+tags:   Tips
 comments: true 
 ---
 

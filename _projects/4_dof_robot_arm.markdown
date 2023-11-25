@@ -5,7 +5,7 @@ description: Robotics Course
 img:  /assets/img/robotics_course/poppy.gif
 importance: 4
 # github:
-category: Course Project
+category: Course Projects
 ---
 
 This is a modified Poppy humanoid arm to help people with tremors do tasks that require a steady hand. These tasks can be simple, such as drinking water, or they can be dangerous, such as using sharp objects. This arm helps get these tasks done in a safe and repeatable manner. 

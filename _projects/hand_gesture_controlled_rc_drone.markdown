@@ -5,7 +5,7 @@ description: Sensors Course
 img:  /assets/img/sensors_course/hardware.jpg
 importance: 4
 github: https://github.com/HadiElnemr/Hand-Gesture-Controlled-Drone
-category: Course Project
+category: Course Projects
 ---
 
 This is a toy drone that uses image processing techniques to identify hand gestures and control its altitude accordingly. This project was part of our Sensors Technology course project.

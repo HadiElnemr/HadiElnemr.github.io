@@ -5,7 +5,7 @@ description: Metaheuristic Optimization Techniques for Multi-Cooperative Systems
 img:  /assets/img/multi_uav_task_assignment_and_path_planning/h_aco_woa.png
 importance: 1
 github: https://github.com/HadiElnemr/UAVs-Task-Assignment-and-Path-Planning
-category: Course Project
+category: Course Projects
 ---
 
 <!-- write a markdown page about our optimisation techniques course where we tackled the MUTAPP problem using 4 different approaches--> 

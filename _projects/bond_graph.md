@@ -5,7 +5,7 @@ description: Bond Graph Course
 img:  /assets/img/bond_graph/exoskeleton/full_bond_graph.png
 importance: 4
 # github: https://github.com/HadiElnemr/
-category: Course Project
+category: Course Projects
 ---
 
 <!-- <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/sensors_course/hardware.jpg' | relative_url }}" alt="" title="example image"/>

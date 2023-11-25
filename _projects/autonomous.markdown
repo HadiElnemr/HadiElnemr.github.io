@@ -5,7 +5,7 @@ description: Autonomous Systems Course
 # img:  /assets/img/autonomous/hardware.jpg
 importance: 4
 # github: https://github.com/HadiElnemr/
-category: Course Project
+category: Course Projects
 ---
 
 Few days ago, we presented our partially automated 1:16 model-scale Ackermann vehicle. Our vehicle was an RC car that we hacked to put some sensors, an actuatot and a Processor to control the vehicle both longitudinally and laterally.

@@ -5,7 +5,7 @@ description: Image Processing Course
 # img:  /assets/img/autonomous/hardware.jpg
 importance: 4
 # github: https://github.com/HadiElnemr/
-category: Course Project
+category: Course Projects
 ---
 
 
