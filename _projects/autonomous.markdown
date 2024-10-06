@@ -2,7 +2,7 @@
 layout: page
 title: Partial-Autonomous ROS-enabled Ackermann Vehicle
 description: Autonomous Systems Course
-# img:  /assets/img/autonomous/hardware.jpg
+img:  /assets/img/autonomous_course/auto_vehicle.jpg
 importance: 4
 # github: https://github.com/HadiElnemr/
 category: Course Projects
@@ -78,6 +78,10 @@ For the communication of all data between the different modules, Robot Operating
     </div>
 </div>
 
+<img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/autonomous_course/auto_vehicle.jpg' | relative_url }}" alt="" title="Team Picture"/>
+<div class="caption">
+   Semi Autonomous Vehicle (Toyota Camry :) ) image
+</div>
 
 <!-- <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/sensors_course/hardware.jpg' | relative_url }}" alt="" title="example image"/>
 <div class="caption">
