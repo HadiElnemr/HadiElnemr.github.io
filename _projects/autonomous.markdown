@@ -22,9 +22,21 @@ For the control, a simple PID controller was used of the longitudinal control, w
 
 For the communication of all data between the different modules, Robot Operating System (ROS) was used. Multiple scenarios were then tested in simulation to assess the performance of our system.
 
+Team Members:
+- [Kareem Okasha](https://www.linkedin.com/in/kareem-okasha-872846237/)
+- [Mohamed Shaban](https://www.linkedin.com/in/mohamed-shaban-mshaban/)
+- [Mohammed Tawfiq](https://www.linkedin.com/in/mohammed-rahmy/)
+- [Abdelrahman Hany ](https://www.linkedin.com/in/abdelrahman-hany-94a828187/)
+- Hadi Elnemr
+
+Course Instructors:
+- [Dr. Omar Shehata](https://ieeexplore.ieee.org/author/37085351339)
+- [Mohamed Shaaban](https://www.linkedin.com/in/mohamed-shaaban-2102b4146/) (Course Teaching Assistant)
+
+
 <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/autonomous_course/team_pic.jpg' | relative_url }}" alt="" title="Team Picture"/>
 <div class="caption">
-   Team Picture at Exhibition Day (Right to Left): Hadi Elnemr, [Kareem Okasha](https://www.linkedin.com/in/kareem-okasha-872846237/), [Mohamed Shaban](https://www.linkedin.com/in/mohamed-shaban-mshaban/), [Dr. Omar Shehata](https://ieeexplore.ieee.org/author/37085351339) (Course Instructor), [Mohammed Tawfiq](https://www.linkedin.com/in/mohammed-rahmy/), [Abdelrahman Hanycd ](https://www.linkedin.com/in/abdelrahman-hany-94a828187/), [Mohamed Shaaban](https://www.linkedin.com/in/mohamed-shaaban-2102b4146/) (Course Teaching Assistant)
+   Team Picture at Exhibition Day (Right to Left): Hadi Elnemr, Kareem Okasha, Mohamed Shaban, Dr. Omar Shehata (Course Instructor), Mohammed Tawfiq, Abdelrahman Hany, Mohamed Shaaban (Course Teaching Assistant)
 </div>
 
 <!-- Add video from assets/videos -->
