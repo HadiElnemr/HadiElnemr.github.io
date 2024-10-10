@@ -44,7 +44,7 @@ Course Instructors:
 
 <div class="row mt-3 justify-content-center">
     <div class="col-sm-12 text-center mt-3 mt-md-0">
-        {% include video.html path="assets/video/autonomous_course/Autonomous_Vehicle_Drifting.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.html path="assets/video/autonomous_course/Autonomous_Vehicle_Drifting.mp4" class="img-fluid rounded z-depth-1" controls=true %}
         <div class="caption">
             Lane Keeping Test Drifting "Amazing" Mistake
         </div>
@@ -53,7 +53,7 @@ Course Instructors:
         </div>
     </div>
     <div class="col-sm-12 text-center mt-3 mt-md-0">
-        {% include video.html path="assets/video/autonomous_course/Autonomous_Systems_Project_Simulation_MS_4_Team_18.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.html path="assets/video/autonomous_course/Autonomous_Systems_Project_Simulation_MS_4_Team_18.mp4" class="img-fluid rounded z-depth-1" controls=true %}
         <div class="caption">
             Lane Changing scenario Simulation
         </div>
@@ -62,13 +62,13 @@ Course Instructors:
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/autonomous_course/lane_keep.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.html path="assets/video/autonomous_course/lane_keep.mp4" class="img-fluid rounded z-depth-1" controls=true %}
         <div class="caption">
          Lane Keeping scenario successful test
       </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/autonomous_course/lane_change.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.html path="assets/video/autonomous_course/lane_change.mp4" class="img-fluid rounded z-depth-1" controls=true %}
       <div class="caption">
          Lane Changing scenario successful test
       </div>
@@ -77,13 +77,13 @@ Course Instructors:
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/autonomous_course/lane_keeping_home.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.html path="assets/video/autonomous_course/lane_keeping_home.mp4" class="img-fluid rounded z-depth-1" controls=true %}
         <div class="caption">
          Lane Keeping scenario
       </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/autonomous_course/lane_changing_home.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.html path="assets/video/autonomous_course/lane_changing_home.mp4" class="img-fluid rounded z-depth-1" controls=true %}
       <div class="caption">
          Lane Changing scenario
       </div>
