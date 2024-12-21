@@ -22,8 +22,10 @@ The **exposé** for my topic is here:
     </embed>
 </object>
 
-This opportunity was provided by <a href='https://embedded.rwth-aachen.de/doku.php?id=en:lehrstuhl:mitarbeiter:alrifaee'>Dr.-Ing. Bassam Alrifae</a> and my work was supervised by <a href='https://embedded.rwth-aachen.de/doku.php?id=en:lehrstuhl:mitarbeiter:schaefer'>Simon Schäfer M.Sc.</a>, and the work is done under the <a href='https://embedded.rwth-aachen.de/doku.php?id=en:forschung:mobility'>Cyber-Physical Mobility Group</a>
-
+<!-- <a href='https://embedded.rwth-aachen.de/doku.php?id=en:lehrstuhl:mitarbeiter:alrifaee'> -->
+<!-- https://embedded.rwth-aachen.de/doku.php?id=en:lehrstuhl:mitarbeiter:schaefer -->
+This opportunity was provided by <a href='https://www.unibw.de/cas/team/univ-prof-dr-ing-bassam-alrifaee'>Dr.-Ing. Bassam Alrifae</a> (now: Univ.-Prof. Dr.-Ing.) and my work was supervised by <a href='https://www.embedded.rwth-aachen.de/cms/embedded/der-lehrstuhl/mitarbeiteruebersicht/~bfleef/simon-schaefer/?allou=1'>Simon Schäfer M.Sc.</a>, and the work is done under the <a href='https://www.embedded.rwth-aachen.de/cms/embedded/forschung/~bflcvi/cyber-physical-mobility/?lidx=1'>Cyber-Physical Mobility Group</a>
+<!-- https://embedded.rwth-aachen.de/doku.php?id=en:forschung:mobility -->
 The map matching problem arises in the field of autonomous vehicles where the position of a vehicle is obtained using GNSS sensors on the vehicle.
 Like many types of sensors, GNSS data involves errors arising from the idea of how satellites work to find the position of a moving vehicle.
 Map matching a moving vehicle to an HD map using this distorted GNSS data is well known challenge.
