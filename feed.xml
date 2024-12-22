@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://hadielnemr.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hadielnemr.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-12-22T16:53:06+00:00</updated><id>https://hadielnemr.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://hadielnemr.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hadielnemr.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-12-22T16:58:44+00:00</updated><id>https://hadielnemr.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">My Bachelor Thesis</title><link href="https://hadielnemr.github.io/blog/2022/My-Thesis/" rel="alternate" type="text/html" title="My Bachelor Thesis" /><published>2022-06-23T00:00:00+00:00</published><updated>2022-06-23T00:00:00+00:00</updated><id>https://hadielnemr.github.io/blog/2022/My-Thesis</id><content type="html" xml:base="https://hadielnemr.github.io/blog/2022/My-Thesis/"><![CDATA[<p>My bachelor thesis was titled <em>Lane-level Map Matching for Model-scale Vehicles</em>, where I did it at the CPM Lab at <a href="https://www.rwth-aachen.de/">RWTH Aachen</a>, Germany.</p>
 
 <p>The <strong>exposé</strong> for my topic is here:</p>
@@ -8,7 +8,7 @@
     &lt;/embed&gt;
 </object>
 
-<p>This opportunity was provided by <a href="https://embedded.rwth-aachen.de/doku.php?id=en:lehrstuhl:mitarbeiter:alrifaee">Dr.-Ing. Bassam Alrifae</a> and my work was supervised by <a href="https://embedded.rwth-aachen.de/doku.php?id=en:lehrstuhl:mitarbeiter:schaefer">Simon Schäfer M.Sc.</a>, and the work is done under the <a href="https://embedded.rwth-aachen.de/doku.php?id=en:forschung:mobility">Cyber-Physical Mobility Group</a></p>
+<p>This opportunity was provided by <a href="https://www.unibw.de/cas/team/univ-prof-dr-ing-bassam-alrifaee">Dr.-Ing. Bassam Alrifae</a> (now: Univ.-Prof. Dr.-Ing.) and my work was supervised by <a href="https://www.embedded.rwth-aachen.de/cms/embedded/der-lehrstuhl/mitarbeiteruebersicht/~bfleef/simon-schaefer/?allou=1">Simon Schäfer M.Sc.</a>, and the work is done under the <a href="https://www.embedded.rwth-aachen.de/cms/embedded/forschung/~bflcvi/cyber-physical-mobility/?lidx=1">Cyber-Physical Mobility Group</a></p>
 
 <p>The map matching problem arises in the field of autonomous vehicles where the position of a vehicle is obtained using GNSS sensors on the vehicle.
 Like many types of sensors, GNSS data involves errors arising from the idea of how satellites work to find the position of a moving vehicle.
@@ -17,9 +17,9 @@ Many algorithms where implemented and tested to address this specific problem.</
 
 <p>An approach using Hidden Markov Model algorithm was implemented and tested by <a href="https://dl.acm.org/doi/abs/10.1145/1653771.1653818">Newson and Krumm, 2009</a> which was successful and paved the road for many papers later that addressed this problem.</p>
 
-<p>The work be Newson and Krumm is considered to be <em>road-level</em> map matching.</p>
+<p>The work by Newson and Krumm is considered to be <em>road-level</em> map matching.</p>
 
-<p>In this thesis, the objective is to implement the HMM algorithm so support <em>lane-level</em> map matching using GNSS data and data acquired by the vehicle itself such the heading, yaw rate etc.</p>
+<p>In this thesis, the objective is to implement the Hidden Markov Model (HMM) algorithm so support <em>lane-level</em> map matching using GNSS data and data acquired by the vehicle itself such the heading, yaw rate etc.</p>
 
 <!-- <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6972286552882225152" height="1111" width="504" frameborder="0" allowfullscreen="" title="Embedded post"  scrolling="no"></iframe> -->
 
