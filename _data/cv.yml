@@ -90,6 +90,10 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2025
+      items:
+        - Sony Award for exceptional academic performance in the Master of Science in INFOTECH program at Stuttgart University.
+
     - year: 2023
       items:
         - DAAD Full Scholarship recipient for pursuing the Master of Science in Infotech program at Stuttgart University.
@@ -98,7 +102,7 @@
       items:
         - Ranked 1st on Mechatronics Engineering at the German University in Cairo (Comulative GPA after 6th semester)
         - Full Scholarship 6 months Bachelor Thesis at RWTH Aachen, Germany. (CPM Lab in the chair of Embedded Software (Informatik 11))
- 
+
     - year: 2018
       items:
         - Ranked 98th on Egyptian General Secondary (Thanawya Amma) Amongst +600,000 students
@@ -107,16 +111,17 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Autonomous Vehicles.
-      items: 
-        - Control.
-        - Path Planning.
-        - Map Matching
-    - title: Control Theory.
+    - title: Control Theory
       items:
-        # - Description 1.
-        # - Description 2.
-    - title: Embedded Systems.
+        - Data-driven Predictive Control
+        - Model Predictive Control (MPC)
+        - Reinforcement Learning
+    - title: Autonomous Vehicles
+      items:
+        - Control
+        - Path Planning
+        - Map Matching
+    - title: Embedded Systems
       items:
         # - Description 1.
         # - Description 2.
@@ -124,5 +129,7 @@
 - title: Other Interests
   type: list
   contents:
-    - Reading
+    - Academic Teaching
+    - Linguistics
+    - Linux
     - Competitive Programming
