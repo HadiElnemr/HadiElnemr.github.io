@@ -53,8 +53,13 @@ To process real-time video feed from the camera, we use OpenCV and Python. Opera
 
 
 **Team members**:
-- Kareem Ashraf Okasha,
+- [Kareem Okasha](https://www.linkedin.com/in/kareem-okasha-872846237/),
 - Khaled Zaky,
-- Mohamed Shaban,
-- Mohammed Tawfiq,
+- [Mohamed Shaban](https://www.linkedin.com/in/mohamed-shaban-mshaban/),
+- [Mohammed Tawfiq](https://www.linkedin.com/in/mohammed-rahmy/)
 - Hadi Elnemr
+
+Course Instructors:
+- [Dr. Omar Shehata](https://ieeexplore.ieee.org/author/37085351339)
+- [M.Sc. Dalia Mamdouh](https://scholar.google.com/citations?user=w9-h9uUAAAAJ&hl=en)
+- [M.Sc. Mai Mira](https://eg.linkedin.com/in/mai-mira-b25303129)
