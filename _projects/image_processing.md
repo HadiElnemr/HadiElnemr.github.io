@@ -27,6 +27,29 @@ To process real-time video feed from the camera, we use OpenCV and Python. Opera
     </div>
 </div>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/img_processing/hardware1.png" title="Up" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/img_processing/hardware2.png" title="Hold" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Hardware Design
+</div>
+
+<div class="text-center">
+   <img class="img-fluid rounded z-depth-1" style="width: 1000px; height: auto;" src="{{ '/assets/img/img_processing/circuit_diagram.png' | relative_url }}" alt="" title="circuit_diagram"/>
+   <div class="caption">
+   Circuit Diagram
+   </div>
+
+   <img class="img-fluid rounded z-depth-1" style="width: 1000px; height: auto;" src="{{ '/assets/img/img_processing/scenarios.png' | relative_url }}" alt="" title="scenarios"/>
+   <div class="caption">
+   Different scenarios for the robot where two aruco markers represent the robot front and back and one marker for the target. The scenarios show different positions and orientation of the robot and the target.
+   </div>
+</div>
 
 
 **Team members**:
