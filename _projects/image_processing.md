@@ -2,7 +2,7 @@
 layout: page
 title: Differential Drive Mobile Robot Positioning System and Target Tracking
 description: Image Processing Course
-# img:  /assets/img/autonomous/hardware.jpg
+img:  /assets/img/img_processing/setup.png
 importance: 4
 # github: https://github.com/HadiElnemr/
 category: Course Projects
