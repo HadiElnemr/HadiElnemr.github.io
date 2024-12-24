@@ -27,6 +27,18 @@ To process real-time video feed from the camera, we use OpenCV and Python. Opera
     </div>
 </div>
 
+<div class="text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/img_processing/data_flow_diagram.png" title="Data flow diagram" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/img_processing/workflow.png" title="Workflow" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Data flow and Workflow Diagrams
+</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/img_processing/hardware1.png" title="Up" class="img-fluid rounded z-depth-1" %}
@@ -48,6 +60,12 @@ To process real-time video feed from the camera, we use OpenCV and Python. Opera
    <img class="img-fluid rounded z-depth-1" style="width: 1000px; height: auto;" src="{{ '/assets/img/img_processing/scenarios.png' | relative_url }}" alt="" title="scenarios"/>
    <div class="caption">
    Different scenarios for the robot where two aruco markers represent the robot front and back and one marker for the target. The scenarios show different positions and orientation of the robot and the target.
+   </div>
+
+   <img class="img-fluid rounded z-depth-1" style="width: 1000px; height: auto;" src="{{ '/assets/img/img_processing/table.png' | relative_url }}" alt="" title="scenarios"/>
+   <div class="caption">
+   Prices and availability table <br>
+   (Ram: RAM Electronics shop, Bab Ellouq, near Tahreer square, Cairo, Egypt)
    </div>
 </div>
 
