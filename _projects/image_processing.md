@@ -69,6 +69,15 @@ To process real-time video feed from the camera, we use OpenCV and Python. Opera
    </div>
 </div>
 
+<!-- Add video without sound -->
+<div class="row mt-3 justify-content-center">
+    <div class="col-sm-12 text-center mt-3 mt-md-0">
+        {% include video.html path="assets/video/img_processing/demonstration_team_27.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+        <div class="caption">
+            Demonstration of different scenarios
+        </div>
+    </div>
+</div>
 
 **Team members**:
 - [Kareem Okasha](https://www.linkedin.com/in/kareem-okasha-872846237/),
