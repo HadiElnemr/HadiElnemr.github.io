@@ -21,7 +21,7 @@ category: Course Projects
 
 ## Exploring Actuators Modelling for Human-Machine Interactions using Bond Graphs
 
-The development of innovative actuators has opened up exciting possibilities in robotics and wearable technology. This project focuses on two key types of actuators: pressure-sensed actuators and kinetic wires. Pressure-sensed actuators offer precise control over motion, with potential applications in wearable exoskeletons. Kinetic wires enable complex movements without deformation, making them ideal for various applications. This study aims to model and investigate both types, exploring their potential to enhance human-machine interactions, including wearable technology, industrial automation, and prosthetics. 
+The development of innovative actuators has opened up exciting possibilities in robotics and wearable technology. This project focuses on two key types of actuators: pressure-sensed actuators and kinetic wires. Pressure-sensed actuators offer precise control over motion, with potential applications in wearable exoskeletons. Kinetic wires enable complex movements without deformation, making them ideal for various applications. This study aims to model and investigate both types, exploring their potential to enhance human-machine interactions, including wearable technology, industrial automation, and prosthetics.
 
 *The first type of actuator is already modelled in a present paper and is considered as an exercise to utilise the bond graph technique to model a complex system.*
 
@@ -64,3 +64,6 @@ The development of innovative actuators has opened up exciting possibilities in 
 <div class="caption">
    Updated Bond Graph
 </div>
+
+
+This project was associated with the 10th semester Bond Graph course by Assist. Prof. Dr. Amir R. Ali.
