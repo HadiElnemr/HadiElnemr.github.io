@@ -32,14 +32,15 @@
       institution: University of Stuttgart
       year: 2023-2025
       description:
-        # - Description 1.
+        - 'Research Project: Data-Driven Model Predictive Control for a Self-Stabilising Bicycle'
+        - 'Teaching Assistant for the "Advanced Mathematics for Infotech" course'
 
     - title: Bachelor Thesis
       institution: RWTH Aachen, Germany
       year: 2022
       description:
         - Cyber-Physical Mobility (CPM) Lab at Chair of Embedded Software
-        - Thesis topic: Lane-level Map Matching Algorithm for Model-scale Vehicles.
+        - 'Thesis topic: Lane-level Map Matching Algorithm for Model-scale Vehicles.'
 
     - title: Bachelor of Science (B.Sc.) in Mechatronics Engineering
       institution: German University in Cairo
