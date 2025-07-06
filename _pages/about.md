@@ -2,13 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.Sc. Embedded Systems Engineering Student at the University of Stuttgart 
+subtitle: M.Sc. Embedded Systems Engineering Student at the University of Stuttgart
 
 #[German University in Cairo](https://guc.edu.eg). Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_new.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Stuttgart, Germany</p>
