@@ -28,19 +28,19 @@
     #     - Description 1.
     #     - Description 2.
 
-    - title: Master of Science (M.Sc.) in Embedded Systems (Infotech Program)
+    - title: Master of Science (M.Sc.) in Informationstechnik (Infotech Program)
       institution: University of Stuttgart
       year: 2023-2025
       description:
-        - 'Masters Thesis: Analysis of Algorithms for Time-Varying Optimisation'
+        - 'Masters Thesis: Analysis of First-Order Algorithms for Time-Varying Optimisation'
         - 'Research Project: Data-Driven Model Predictive Control for a Self-Stabilising Bicycle'
-        - 'Teaching Assistant for the "Advanced Mathematics for Infotech" course'
+        - 'Teaching Assistant for the "Advanced Mathematics for Infotech" course exercise sessions'
 
     - title: Bachelor Thesis
       institution: RWTH Aachen, Germany
       year: 2022
       description:
-        - Cyber-Physical Mobility (CPM) Lab at Chair of Embedded Software
+        - Cyber-Physical Mobility (CPM) Lab at the Chair of Embedded Software (i11)
         - 'Thesis topic: Lane-level Map Matching Algorithm for Model-scale Vehicles.'
 
     - title: Bachelor of Science (B.Sc.) in Mechatronics Engineering
