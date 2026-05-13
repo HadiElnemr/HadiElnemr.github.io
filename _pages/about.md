@@ -6,7 +6,7 @@ subtitle: Doctoral candidate in Cyber-Physical Systems group at TUM Heilbronn
 
 profile:
   align: right
-  image: prof_pic_new.jpg
+  image: personal_sony_image.png
   image_circular: false # crops the image to make it circular
   address: >
       <p>Heilbronn, Germany</p>
