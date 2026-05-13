@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.Sc. Embedded Systems Engineering Student at the University of Stuttgart
-
-#[German University in Cairo](https://guc.edu.eg). Address. Contacts. Moto. Etc.
+subtitle: Doctoral candidate in Cyber-Physical Systems group at TUM Heilbronn
 
 profile:
   align: right
   image: prof_pic_new.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Stuttgart, Germany</p>
+      <p>Heilbronn, Germany</p>
+# <p>Stuttgart, Germany</p>
 # <p>from Nasr City, Cairo, Egypt</p>
 
 news: false  # includes a list of news items
@@ -20,6 +19,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-A M.Sc. student at the University of Stuttgart in the [Infotech Program](https://www.infotech.uni-stuttgart.de/)<!--, with **Embedded Systems** as the specialisation -->. A B.Sc. **Mechatronics Engineering** graduate from the [German University in Cairo](https://www.guc.edu.eg/) with experience in Control, Autonomous Systems, Robotics, Optimisation, Programming, and Co-teaching. Interested in Control Engineering, Optimisation, and Academia.
+I am a doctoral candidate at the [Technical University of Munich](https://www.tum.de/) (Cyber-Physical Systems, Heilbronn campus), working on discrete reachability analysis. I completed an [M.Sc. in Information Technology](https://www.infotech.uni-stuttgart.de/) at the University of Stuttgart (INFOTECH programme, Embedded Systems specialisation), including a research project on data-driven state-feedback control for a self-stabilising bicycle and a master's thesis on tracking bounds for first-order methods in time-varying optimisation.
 
-Did my bachelor thesis at RWTH Aachen, Germany. The thesis addressed the **Map Matching** problem in the field of Smart Vehicles. The thesis title was "*Lane-level Map Matching Algorithm for Model-scale Vehicles*". More info here [[1]](/projects/bachelor_thesis/), and get access here [[2]](https://drive.google.com/file/d/15J4s3Po5Et_att0-b0f4rIKUhnWFzh9D/view?usp=share_link).
+I hold a B.Sc. in Engineering Materials and Sciences (Mechatronics major) from the [German University in Cairo](https://www.guc.edu.eg/). My bachelor's thesis at [RWTH Aachen](https://www.rwth-aachen.de/) addressed **lane-level map matching** for model-scale vehicles in the Cyber-Physical Mobility Lab (Chair of Embedded Software). More detail is on the [project page](/projects/bachelor_thesis/); the thesis PDF is [here](https://drive.google.com/file/d/15J4s3Po5Et_att0-b0f4rIKUhnWFzh9D/view?usp=share_link).
+
+I have been a research assistant at the CPM Lab, taught Advanced Mathematics for INFOTECH at Uni Stuttgart. My interests span control engineering, optimisation, autonomous systems, robotics, and academic teaching.
