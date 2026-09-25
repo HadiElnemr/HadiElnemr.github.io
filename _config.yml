@@ -446,8 +446,10 @@ imagemagick:
     - ".jpeg"
     - ".png"
     - ".tiff"
+    - ".gif"
   output_formats:
-    webp: "-auto-orient -quality 85"
+    # -coalesce expands optimised animated GIF frames so they convert to WebP (no-op for still images)
+    webp: "-coalesce -auto-orient -quality 85"
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.
