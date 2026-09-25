@@ -1,187 +1,167 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Hadi Elnemr
-    - name: Date of Birth
-      value: 1st February 2000
-    - name: Languages
-      value: Arabic, English, German
+cv:
+  sections:
+    General Information:
+      - label: Full Name
+        details: Hadi Elnemr
+      - label: Date of Birth
+        details: 1st February 2000
+      - label: Languages
+        details: Arabic, English, German
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Master of Science in Information Technology (INFOTECH programme), Embedded Systems specialisation
-      institution: University of Stuttgart, Germany
-      year: 2023–2026
-      description:
-        - "Grade: 1.3 (German scale)."
-        - "Master's thesis: Improved Automated Generation of Tracking Bounds for First-Order Algorithms in Time-Varying Optimisation (grade 1.3)."
-        - "Research project: Implementation of a Data-driven State-feedback Controller for a Self-stabilising Bicycle (grade 1.3)."
-        - 'Teaching Assistant for the "Advanced Mathematics for Infotech" course exercise sessions'
+    Education:
+      - institution: University of Stuttgart, Germany
+        studyType: Master of Science in Information Technology (INFOTECH programme)
+        area: Embedded Systems specialisation
+        start_date: 2023
+        end_date: 2026
+        highlights:
+          - "Grade: 1.3 (German scale)."
+          - "Master's thesis: Improved Automated Generation of Tracking Bounds for First-Order Algorithms in Time-Varying Optimisation (grade 1.3)."
+          - "Research project: Implementation of a Data-driven State-feedback Controller for a Self-stabilising Bicycle (grade 1.3)."
+          - 'Teaching Assistant for the "Advanced Mathematics for Infotech" course exercise sessions'
 
-    - title: Bachelor Thesis
-      institution: RWTH Aachen University, Germany
-      year: 2022
-      description:
-        - "Cyber-Physical Mobility (CPM) Lab, Chair of Embedded Software (Informatik 11)."
-        - "Thesis: Lane-level Map Matching Algorithm for Model-scale Vehicles (grade 1.0)."
+      - institution: RWTH Aachen University, Germany
+        studyType: Bachelor Thesis
+        date: 2022
+        highlights:
+          - "Cyber-Physical Mobility (CPM) Lab, Chair of Embedded Software (Informatik 11)."
+          - "Thesis: Lane-level Map Matching Algorithm for Model-scale Vehicles (grade 1.0)."
 
-    - title: Bachelor of Science in Engineering Materials and Sciences (EMS), Mechatronics major
-      institution: The German University in Cairo, Egypt
-      year: 2018–2023
-      description:
-        - "Cumulative GPA: 0.8 (A+; German scale 0.7–5.0)."
+      - institution: The German University in Cairo, Egypt
+        studyType: Bachelor of Science in Engineering Materials and Sciences (EMS)
+        area: Mechatronics major
+        start_date: 2018
+        end_date: 2023
+        highlights:
+          - "Cumulative GPA: 0.8 (A+; German scale 0.7–5.0)."
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Doctoral candidate
-      institution: Cyber-Physical Systems (CPS), Heilbronn Campus — Technical University of Munich (TUM), Germany
-      year: February 2026–present
-      description:
-        - "Research on discrete reachability analysis and applications."
-        - Teaching the Cyber-Physical Systems course (INHN0018) at TUM Heilbronn Campus, for Information Engineering Bachelor students.
-        - Supervising Bachelor thesis student(s)
+    Experience:
+      - position: Doctoral candidate
+        company: Cyber-Physical Systems (CPS), Heilbronn Campus — Technical University of Munich (TUM), Germany
+        start_date: 2026-02
+        highlights:
+          - "Research on discrete reachability analysis and applications."
+          - Teaching the Cyber-Physical Systems course (INHN0018) at TUM Heilbronn Campus, for Information Engineering Bachelor students.
+          - Supervising Bachelor thesis student(s)
 
-    - title: Research assistant (HiWi)
-      institution: Cyber-Physical Mobility Lab (CPM) — RWTH Aachen University, Germany
-      year: 2024–2026
-      description:
-        - Synthesised an OSM Lanelet2 map for a real-world scenario.
-        - Transferred real-world map data to CPM Lab simulations.
-        - Handled RVIZ2 simulations for the CPM Lab.
-        - Developed a Dubins path planner tool in RVIZ2.
-        - Developed a scenarios planner for the micro-cars.
-        - F1-tenth RoboRacer simulation development.
-        - Developed a Lichtblick environment as an alternative to the CPM Lab RVIZ environment.
+      - position: Research assistant (HiWi)
+        company: Cyber-Physical Mobility Lab (CPM) — RWTH Aachen University, Germany
+        start_date: 2024
+        end_date: 2026
+        highlights:
+          - Synthesised an OSM Lanelet2 map for a real-world scenario.
+          - Transferred real-world map data to CPM Lab simulations.
+          - Handled RVIZ2 simulations for the CPM Lab.
+          - Developed a Dubins path planner tool in RVIZ2.
+          - Developed a scenarios planner for the micro-cars.
+          - F1-tenth RoboRacer simulation development.
+          - Developed a Lichtblick environment as an alternative to the CPM Lab RVIZ environment.
 
-    - title: Teaching instructor
-      institution: Advanced Mathematics for INFOTECH exercise sessions — University of Stuttgart, Germany
-      year: October 2024– March 2025
-      description:
-        - "Exercise sessions for master's students."
+      - position: Teaching instructor
+        company: Advanced Mathematics for INFOTECH exercise sessions — University of Stuttgart, Germany
+        start_date: 2024-10
+        end_date: 2025-03
+        highlights:
+          - "Exercise sessions for master's students."
 
-    # - title: Research and innovation member
-    #   institution: GUCInnovators, Shell Eco-marathon racing team — The German University in Cairo, Egypt
-    #   year: 2022–2023
-    #   description:
-    #     - Extracted map data points representing a racing track.
-    #     - Developed an algorithm that converts data points to the required format.
-    #     - Used an optimisation algorithm to obtain a racing line.
+      # - position: Research and innovation member
+      #   company: GUCInnovators, Shell Eco-marathon racing team — The German University in Cairo, Egypt
+      #   start_date: 2022
+      #   end_date: 2023
+      #   highlights:
+      #     - Extracted map data points representing a racing track.
+      #     - Developed an algorithm that converts data points to the required format.
+      #     - Used an optimisation algorithm to obtain a racing line.
 
-    - title: Research intern
-      institution: Control and Dynamical Systems Lab — The German University in Cairo, Egypt
-      year: 2021
-      description:
-        - "August–September 2021: web server, socket programming, and MAVLink UDP channel between a Raspberry Pi and a PC."
+      - position: Research intern
+        company: Control and Dynamical Systems Lab — The German University in Cairo, Egypt
+        date: 2021
+        highlights:
+          - "August–September 2021: web server, socket programming, and MAVLink UDP channel between a Raspberry Pi and a PC."
 
-    # - title: Projects member
-    #   institution: GUCBrain machine learning working group — The German University in Cairo, Egypt
-    #   year: 2020–2021
-    #   description:
-    #     - Machine learning tasks and regular ML sessions.
+      # - position: Projects member
+      #   company: GUCBrain machine learning working group — The German University in Cairo, Egypt
+      #   start_date: 2020
+      #   end_date: 2021
+      #   highlights:
+      #     - Machine learning tasks and regular ML sessions.
 
-    # - title: Senior hardware committee member
-    #   institution: IEEE GUC Student Branch — The German University in Cairo, Egypt
-    #   year: 2018–2021
-    #   description:
-    #     - Arduino, MATLAB, C, and ROS tasks; Android development practice.
+      # - position: Senior hardware committee member
+      #   company: IEEE GUC Student Branch — The German University in Cairo, Egypt
+      #   start_date: 2018
+      #   end_date: 2021
+      #   highlights:
+      #     - Arduino, MATLAB, C, and ROS tasks; Android development practice.
 
-    # - title: Junior teaching assistant
-    #   institution: The German University in Cairo, Egypt
-    #   year: 2020–2021
-    #   description:
-    #     - Mentored students in Introduction to Programming and OOP (CSEN 202) labs.
-    #     - Mentored students in Data Structures and Algorithms (CSEN 301) labs.
+      # - position: Junior teaching assistant
+      #   company: The German University in Cairo, Egypt
+      #   start_date: 2020
+      #   end_date: 2021
+      #   highlights:
+      #     - Mentored students in Introduction to Programming and OOP (CSEN 202) labs.
+      #     - Mentored students in Data Structures and Algorithms (CSEN 301) labs.
 
-    # - title: Trainee
-    #   institution: Robo-Tech EG — Alexandria, Egypt
-    #   year: 2020
-    #   description:
-    #     - "August 2020: robot arm design, analysis, manufacturing, and control."
+      # - position: Trainee
+      #   company: Robo-Tech EG — Alexandria, Egypt
+      #   date: 2020
+      #   highlights:
+      #     - "August 2020: robot arm design, analysis, manufacturing, and control."
 
-- title: Honours and Awards
-  type: time_table
-  contents:
-    - year: 2025
-      items:
-        - Sony Active Student Award for academic performance at the University of Stuttgart.
+    Awards:
+      - title: Sony Active Student Award for academic performance at the University of Stuttgart.
+        date: 2025
+      - title: DAAD scholarship for master's studies at the University of Stuttgart (INFOTECH programme).
+        date: 2023
+      - title: Ranked 3rd in Mechatronics at the German University in Cairo (9th semester).
+        date: 2023
+      - title: Full scholarship for the bachelor's thesis abroad; ranked 1st in Mechatronics at the German University in Cairo (cumulative GPA over the first six semesters).
+        date: 2022
+      # - title: Ranked 6th in Mechatronics at the German University in Cairo (7th semester).
+      #   date: 2022
+      # - title: Ranked 4th in Mechatronics at the German University in Cairo (6th semester).
+      #   date: 2021
+      # - title: German University in Cairo excellence award; ranked 2nd in Mechatronics (3rd semester).
+      #   date: 2020
+      # - title: Ranked 5th in Engineering at the German University in Cairo (1st and 2nd semesters).
+      #   date: 2019
+      - title: Ranked 98th on Egyptian General Secondary (Thanawya Amma, Mathematical section) amongst +200,000 students
+        date: 2018
+      - title: 70% Scholarship for Bachelor's studies in the German University in Cairo
+        date: 2018
 
-    - year: 2023
-      items:
-        - DAAD scholarship for master's studies at the University of Stuttgart (INFOTECH programme).
-        - Ranked 3rd in Mechatronics at the German University in Cairo (9th semester).
+    Academic Interests:
+      - name: Control engineering and optimisation
+        keywords: Discrete reachability and formal methods, Data-driven and model predictive control, Time-varying optimisation and first-order methods, Reinforcement learning
+      - name: Autonomous systems and robotics
+        keywords: Control, Map matching and autonomous driving stacks, ROS and embedded platforms
+      - name: Teaching and research
+        keywords: University teaching and exercise design
 
-    - year: 2022
-      items:
-        - Full scholarship for the bachelor's thesis abroad; ranked 1st in Mechatronics at the German University in Cairo (cumulative GPA over the first six semesters).
-    #     - Ranked 6th in Mechatronics at the German University in Cairo (7th semester).
+    Languages and Technical Skills:
+      - label: Programming
+        details: Python, C++, Java, C, VHDL.
+      - label: Tools and frameworks
+        details: ROS 1/2, OOP, AVR microcontrollers, machine learning, data science, OpenCV, MAVLink.
+      - label: Platforms and software
+        details: Linux, Raspberry Pi, MATLAB, SOLIDWORKS, AutoCAD, Ansys.
+      - label: Also familiar with
+        details: Carla, C#, assembly, Docker, Proteus, SQL, socket programming, Flask, Django.
 
-    # - year: 2021
-    #   items:
-    #     - Ranked 4th in Mechatronics at the German University in Cairo (6th semester).
+    Online Courses:
+      - bullet: Motion Planning for Self-Driving Cars (Coursera)
+      - bullet: Introduction to Self-Driving Cars (Coursera)
+      - bullet: Introduction to Data Science in Python (Coursera)
+      - bullet: Data Analysis Challenger Track (Udacity)
 
-    # - year: 2020
-    #   items:
-    #     - German University in Cairo excellence award; ranked 2nd in Mechatronics (3rd semester).
+    Additional Experience:
+      - bullet: DEBI Robotics Competition — qualified to the round of 16 out of ~200 teams.
+      - bullet: ACM ICPC GUC community member (pupil and specialist tracks).
+      - bullet: 2020 ECPC qualifications contest (GUC qualifications).
+      - bullet: Catalyst Coding Contest, Google Hash Code, and Code Jam (2019–2022).
+      - bullet: NASA Space Apps Challenge participant (2020).
 
-    # - year: 2019
-    #   items:
-    #     - Ranked 5th in Engineering at the German University in Cairo (1st and 2nd semesters).
-
-    - year: 2018
-      items:
-        - Ranked 98th on Egyptian General Secondary (Thanawya Amma, Mathematical section) amongst +200,000 students
-        - 70% Scholarship for Bachelor's studies in the German University in Cairo
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Control engineering and optimisation
-      items:
-        - Discrete reachability and formal methods
-        - Data-driven and model predictive control
-        - Time-varying optimisation and first-order methods
-        - Reinforcement learning
-    - title: Autonomous systems and robotics
-      items:
-        - Control
-        - Map matching and autonomous driving stacks
-        - ROS and embedded platforms
-    - title: Teaching and research
-      items:
-        - University teaching and exercise design
-
-- title: Languages and Technical Skills
-  type: list
-  contents:
-    - "Programming: Python, C++, Java, C, VHDL."
-    - "Tools and frameworks: ROS 1/2, OOP, AVR microcontrollers, machine learning, data science, OpenCV, MAVLink."
-    - "Platforms and software: Linux, Raspberry Pi, MATLAB, SOLIDWORKS, AutoCAD, Ansys."
-    - "Also familiar with: Carla, C#, assembly, Docker, Proteus, SQL, socket programming, Flask, Django."
-
-- title: Online Courses
-  type: list
-  contents:
-    - Motion Planning for Self-Driving Cars (Coursera)
-    - Introduction to Self-Driving Cars (Coursera)
-    - Introduction to Data Science in Python (Coursera)
-    - Data Analysis Challenger Track (Udacity)
-
-- title: Additional Experience
-  type: list
-  contents:
-    - DEBI Robotics Competition — qualified to the round of 16 out of ~200 teams.
-    - ACM ICPC GUC community member (pupil and specialist tracks).
-    - 2020 ECPC qualifications contest (GUC qualifications).
-    - Catalyst Coding Contest, Google Hash Code, and Code Jam (2019–2022).
-    - NASA Space Apps Challenge participant (2020).
-
-- title: Other Interests
-  type: list
-  contents:
-    - Academic Teaching
-    - Competitive programming
-    - Linguistics
-    - Linux
+    Other Interests:
+      - bullet: Academic Teaching
+      - bullet: Competitive programming
+      - bullet: Linguistics
+      - bullet: Linux

@@ -42,7 +42,7 @@ Three gestures are defined: the first is up, where the index finger is up. This 
 - [Hadi Elnemr](https://github.com/HadiElnemr)
 - [Ahmed Fathy](https://github.com/AhmedFathyAbdelkhalek)
 - Mohammed Ashraf
-- [Ahmed Shaban]()
+- Ahmed Shaban
 
 <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/sensors_course/team.jpg' | relative_url }}" alt="" title="Team members"/>
 <div class="caption">
