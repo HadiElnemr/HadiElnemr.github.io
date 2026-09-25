@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: GitHub profile and repositories
 nav: true
 nav_order: 4
 ---
@@ -45,3 +45,5 @@ nav_order: 4
   {% endfor %}
 </div>
 {% endif %}
+
+<script src="{{ '/assets/js/github-cards.js' | relative_url | bust_file_cache }}" defer></script>

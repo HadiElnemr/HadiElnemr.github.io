@@ -41,8 +41,6 @@ on:
 jobs:
   link-checker:
     runs-on: ubuntu-latest
-    # only run on the main repo
-    if: github.repository == 'alshedivat/al-folio'
     steps:
       - uses: actions/checkout@v4
 
@@ -50,8 +48,9 @@ jobs:
         uses: lycheeverse/lychee-action@v2.0.2
         with:
           fail: true
-          # removed md files that include liquid tags
+          # removed md files that include liquid tags; skip unrendered liquid URLs ({{ ... }})
+          # 403/418/429 are sites rejecting or rate-limiting bots, not broken links
           # docs/releases is excluded because release notes link to the compare
           # range for the tag they are about to create, which cannot resolve until
           # the release is published
-          args: --user-agent 'curl/7.54' --max-retries 3 --retry-wait-time 2 --exclude-path docs/releases --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _posts/2023-04-24-videos.md --exclude-path _books/the_godfather.md  --exclude-path .github/instructions/bibtex-bibliography.instructions.md --exclude-path .github/instructions/yaml-configuration.instructions.md --exclude-path .github/instructions/markdown-content.instructions.md --exclude-path .github/instructions/liquid-templates.instructions.md --exclude-path AGENTS.md --exclude-path docs/SEO.md --exclude-path docs/SHOWCASE.md --verbose --no-progress './**/*.md' './**/*.html'
+          args: --user-agent 'curl/7.54' --max-retries 3 --retry-wait-time 2 --accept '100..=103,200..=299,403,418,429' --exclude '%7B%7B|\{\{' --exclude-path docs/releases --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _posts/2023-04-24-videos.md --exclude-path _books/the_godfather.md  --exclude-path .github/instructions/bibtex-bibliography.instructions.md --exclude-path .github/instructions/yaml-configuration.instructions.md --exclude-path .github/instructions/markdown-content.instructions.md --exclude-path .github/instructions/liquid-templates.instructions.md --exclude-path AGENTS.md --exclude-path docs/SEO.md --exclude-path docs/SHOWCASE.md --verbose --no-progress './**/*.md' './**/*.html'

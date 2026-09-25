@@ -14,3 +14,8 @@ https://www.reddit.com/
 README.md
 docs/SEO.md
 docs/SHOWCASE.md
+# Sites that work but time out from GitHub Actions runners
+^https://www\.guc\.edu\.eg/
+^https://www\.unibw\.de/
+# LinkedIn answers bots with status 999
+^https://([a-z]+\.)?linkedin\.com/
