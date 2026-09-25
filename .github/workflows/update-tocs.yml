@@ -23,7 +23,7 @@ jobs:
         with:
           fetch-depth: 0 # OR "2" -> To retrieve the preceding commit.
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
 
       - name: Get changed files
         id: changed-files
