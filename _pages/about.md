@@ -9,14 +9,14 @@ profile:
   image: personal_sony_image.png
   image_circular: false # crops the image to make it circular
   address: >
-      <p>Heilbronn, Germany</p>
+    <p>Heilbronn, Germany</p>
 # <p>Stuttgart, Germany</p>
 # <p>from Nasr City, Cairo, Egypt</p>
 
-news: false  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: false # includes a list of news items
+latest_posts: true # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 I am a doctoral candidate at the [Technical University of Munich](https://www.tum.de/) (Cyber-Physical Systems, Heilbronn campus), working on discrete reachability analysis. I completed an [M.Sc. in Information Technology](https://www.infotech.uni-stuttgart.de/) at the University of Stuttgart (INFOTECH programme, Embedded Systems specialisation), including a research project on data-driven state-feedback control for a self-stabilising bicycle and a master's thesis on tracking bounds for first-order methods in time-varying optimisation.

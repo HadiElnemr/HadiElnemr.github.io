@@ -2,7 +2,7 @@
 layout: page
 title: Partial-Autonomous ROS-enabled Ackermann Vehicle
 description: Autonomous Systems Course
-img:  /assets/img/autonomous_course/auto_vehicle.jpg
+img: /assets/img/autonomous_course/auto_vehicle.jpg
 importance: 4
 # github: https://github.com/HadiElnemr/
 category: Course Projects
@@ -23,6 +23,7 @@ For the control, a simple PID controller was used of the longitudinal control, w
 For the communication of all data between the different modules, Robot Operating System (ROS) was used. Multiple scenarios were then tested in simulation to assess the performance of our system.
 
 Team Members:
+
 - [Kareem Okasha](https://www.linkedin.com/in/kareem-okasha-872846237/)
 - [Mohamed Shaban](https://www.linkedin.com/in/mohamed-shaban-mshaban/)
 - [Mohammed Tawfiq](https://www.linkedin.com/in/mohammed-rahmy/)
@@ -30,9 +31,9 @@ Team Members:
 - Hadi Elnemr
 
 Course Instructors:
+
 - [Dr. Omar Shehata](https://ieeexplore.ieee.org/author/37085351339)
 - [Mohamed Shaaban](https://www.linkedin.com/in/mohamed-shaaban-2102b4146/) (Course Teaching Assistant)
-
 
 <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/autonomous_course/team_pic.jpg' | relative_url }}" alt="" title="Team Picture"/>
 <div class="caption">
@@ -40,11 +41,11 @@ Course Instructors:
 </div>
 
 <!-- Add video from assets/videos -->
-<!-- {% include video.html path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %} -->
+<!-- {% include video.liquid path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %} -->
 
 <div class="row mt-3 justify-content-center">
     <div class="col-sm-12 text-center mt-3 mt-md-0">
-        {% include video.html path="assets/video/autonomous_course/Autonomous_Vehicle_Drifting.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid path="assets/video/autonomous_course/Autonomous_Vehicle_Drifting.mp4" class="img-fluid rounded z-depth-1" controls=true %}
         <div class="caption">
             Lane Keeping Test Drifting "Amazing" Mistake
         </div>
@@ -53,7 +54,7 @@ Course Instructors:
         </div>
     </div>
     <div class="col-sm-12 text-center mt-3 mt-md-0">
-        {% include video.html path="assets/video/autonomous_course/Autonomous_Systems_Project_Simulation_MS_4_Team_18.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid path="assets/video/autonomous_course/Autonomous_Systems_Project_Simulation_MS_4_Team_18.mp4" class="img-fluid rounded z-depth-1" controls=true %}
         <div class="caption">
             Lane Changing scenario Simulation
         </div>
@@ -62,13 +63,13 @@ Course Instructors:
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/autonomous_course/lane_keep.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid path="assets/video/autonomous_course/lane_keep.mp4" class="img-fluid rounded z-depth-1" controls=true %}
         <div class="caption">
          Lane Keeping scenario successful test
       </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/autonomous_course/lane_change.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid path="assets/video/autonomous_course/lane_change.mp4" class="img-fluid rounded z-depth-1" controls=true %}
       <div class="caption">
          Lane Changing scenario successful test
       </div>
@@ -77,13 +78,13 @@ Course Instructors:
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/autonomous_course/lane_keeping_home.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid path="assets/video/autonomous_course/lane_keeping_home.mp4" class="img-fluid rounded z-depth-1" controls=true %}
         <div class="caption">
          Lane Keeping scenario
       </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/autonomous_course/lane_changing_home.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid path="assets/video/autonomous_course/lane_changing_home.mp4" class="img-fluid rounded z-depth-1" controls=true %}
       <div class="caption">
          Lane Changing scenario
       </div>

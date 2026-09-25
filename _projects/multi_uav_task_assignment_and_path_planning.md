@@ -2,14 +2,13 @@
 layout: page
 title: Multi UAV Task Assignment and Path Planning
 description: Metaheuristic Optimization Techniques for Multi-Cooperative Systems
-img:  /assets/img/multi_uav_task_assignment_and_path_planning/h_aco_woa.png
+img: /assets/img/multi_uav_task_assignment_and_path_planning/h_aco_woa.png
 importance: 1
 github: https://github.com/HadiElnemr/UAVs-Task-Assignment-and-Path-Planning
 category: Course Projects
 ---
 
-<!-- write a markdown page about our optimisation techniques course where we tackled the MUTAPP problem using 4 different approaches--> 
-
+<!-- write a markdown page about our optimisation techniques course where we tackled the MUTAPP problem using 4 different approaches-->
 
 <!-- # Multi UAV Task Assignment and Path Planning -->
 
@@ -96,12 +95,12 @@ The project has demonstrated how to solve the Multi UAV Task Assignment and Path
 
 ## References
 
-1. [Multi UAV Task Assignment and Path Planning (MUTAPP) Problem](https://en.wikipedia.org/wiki/Multi_UAV_task_assignment_and_path_planning_problem)
+1. Multi UAV Task Assignment and Path Planning (MUTAPP) Problem
 2. [Simulated Annealing (SA)](https://en.wikipedia.org/wiki/Simulated_annealing)
 3. [Genetic Algorithm (GA)](https://en.wikipedia.org/wiki/Genetic_algorithm)
 4. [Ant Colony Optimisation (ACO)](https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms)
-5. [Whale Optimisation Algorithm (WOA)](https://en.wikipedia.org/wiki/Whale_optimization_algorithm)
-6. [Dragonfly Algorithm (DA)](https://en.wikipedia.org/wiki/Dragonfly_algorithm)
+5. [Whale Optimisation Algorithm (WOA)](https://doi.org/10.1016/j.advengsoft.2016.01.008)
+6. [Dragonfly Algorithm (DA)](https://doi.org/10.1007/s00521-015-1920-1)
 7. [Matplotlib](https://matplotlib.org/)
 8. [Python](https://www.python.org/)
 9. [Jupyter Notebook](https://jupyter.org/)
@@ -111,40 +110,40 @@ The project has demonstrated how to solve the Multi UAV Task Assignment and Path
 The source code for the project is available on [GitHub](https://github.com/HadiElnemr/UAVs-Task-Assignment-and-Path-Planning).
 
 ## Authors
- - [Hadi Elnemr](https://github.com/HadiElnemr)
- - [David Micheal](https://github.com/DavidMicheal)
- - [Mohammed Ashraf](https://github.com/MohammedAshraf965)
- - [Ahmed Fathy](https://github.com/AhmedFathyAbdelkhalek)
-  
-<!-- 
+
+- [Hadi Elnemr](https://github.com/HadiElnemr)
+- David Micheal
+- Mohammed Ashraf
+- [Ahmed Fathy](https://github.com/AhmedFathyAbdelkhalek)
+
+<!--
 ## License
-    
+
     [![License](/assets/img/multi_uav_task_assignment_and_path_planning/license.png)](/assets/img/multi_uav_task_assignment_and_path_planning/license.png)
 
 ## Contact
-    
+
     [![Contact](/assets/img/multi_uav_task_assignment_and_path_planning/contact.png)](/assets/img/multi_uav_task_assignment_and_path_planning/contact.png)
 
 ## Donate
-    
+
     [![Donate](/assets/img/multi_uav_task_assignment_and_path_planning/donate.png)](/assets/img/multi_uav_task_assignment_and_path_planning/donate.png)
 
 ## Disclaimer
-    
+
     [![Disclaimer](/assets/img/multi_uav_task_assignment_and_path_planning/disclaimer.png)](/assets/img/multi_uav_task_assignment_and_path_planning/disclaimer.png)
 
 ## Acknowledgements
-    
+
     [![Acknowledgements](/assets/img/multi_uav_task_assignment_and_path_planning/acknowledgements.png)](/assets/img/multi_uav_task_assignment_and_path_planning/acknowledgements.png)
 
 ## About
-    
+
     [![About](/assets/img/multi_uav_task_assignment_and_path_planning/about.png)](/assets/img/multi_uav_task_assignment_and_path_planning/about.png)
 
 ## Social Media
-    
+
     [![Social Media](/assets/img/multi_uav_task_assignment_and_path_planning/social_media.png)](/assets/img/multi_uav_task_assignment_and_path_planning/social_media.png)
 
 ## GitHub
      -->
-

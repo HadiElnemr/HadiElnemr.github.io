@@ -6,8 +6,10 @@ img: /assets/img/mctr_project/robot.png
 importance: 1
 category: Course Projects
 ---
+
 <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/mctr_project/robot.png' | relative_url }}"
      alt="" title="example image" style="display: block; margin: 0 auto;" />
+
 <div class="caption">
    Our robot, "HAD"
 </div>

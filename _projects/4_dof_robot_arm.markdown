@@ -2,7 +2,7 @@
 layout: page
 title: 4 DOF Humanoid Robot Arm
 description: Robotics Course
-img:  /assets/img/robotics_course/poppy.gif
+img: /assets/img/robotics_course/poppy.gif
 importance: 4
 # github:
 category: Course Projects
@@ -30,7 +30,7 @@ The humanoid arm is based on the infamous poppy humanoid, developed by Matthieu 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/robotics_course/gripper.png" title="Robot arm project" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/robotics_course/gripper.png" title="Robot arm project" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -57,9 +57,7 @@ We simulated the design on Matlab Simscape Multibody. We came up with some joint
 
 ### Team members
 
- - [Ahmed Fathy](https://github.com/AhmedFathyAbdelkhalek)
- - [David Micheal](https://github.com/DavidMicheal)
- - [Hadi Elnemr](https://github.com/HadiElnemr)
- - [Mohammed Ashraf](https://github.com/MohammedAshraf965)
-
-
+- [Ahmed Fathy](https://github.com/AhmedFathyAbdelkhalek)
+- David Micheal
+- [Hadi Elnemr](https://github.com/HadiElnemr)
+- Mohammed Ashraf

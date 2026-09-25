@@ -45,8 +45,9 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Link Checker 🔗
-        uses: lycheeverse/lychee-action@v1.9.0
+        uses: lycheeverse/lychee-action@v2.0.2
         with:
           fail: true
-          # removed md files that include liquid tags
-          args: --user-agent 'curl/7.54' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _posts/2023-04-24-videos.md --verbose --no-progress './**/*.md' './**/*.html'
+          # removed md files that include liquid tags; skip unrendered liquid URLs ({{ ... }})
+          # 403/418/429 are sites rejecting or rate-limiting bots, not broken links
+          args: --user-agent 'curl/7.54' --max-retries 3 --retry-wait-time 2 --accept '100..=103,200..=299,403,418,429' --exclude '%7B%7B|\{\{' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/_Not_Used --exclude-path _projects/_not_used --exclude-path _posts/2023-04-24-videos.md --verbose --no-progress './**/*.md' './**/*.html'

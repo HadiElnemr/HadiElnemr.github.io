@@ -2,19 +2,19 @@
 layout: page
 title: Differential Drive Mobile Robot Positioning System and Target Tracking
 description: Image Processing Course
-img:  /assets/img/img_processing/setup.png
+img: /assets/img/img_processing/setup.png
 importance: 4
 github: https://github.com/HadiElnemr/Differential-Drive-Mobile-Robot-Positioning-System-and-Target-Tracking
 category: Course Projects
 ---
 
 In this project, we implement a differential drive mobile robot positioning system and target tracking using image processing techniques. The system is designed to localize a robot in indoor environments using:
+
 - a ceiling-mounted camera for real-time tracking
 - an ESP32 microcontroller
 - a Python program on a PC for image processing and control decisions
 - Aruco markers for target identification
 - a differential-wheeled robot
-
 
 To process real-time video feed from the camera, we use OpenCV and Python. Operations such as intensity transformations, geometric adjustments, and Aruco marker detection are performed to facilitate accurate target tracking. The closed-loop feedback mechanism ensures responsive motor control based on real-time image analysis.
 
@@ -22,7 +22,7 @@ Check codes for Image processing and control along with ESP32 codes in this [rep
 
 <div class="row mt-3 justify-content-center">
     <div class="col-sm-12 text-center mt-3 mt-md-0">
-        {% include video.html path="assets/video/img_processing/exhibition_fully_working.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid path="assets/video/img_processing/exhibition_fully_working.mp4" class="img-fluid rounded z-depth-1" controls=true %}
         <div class="caption">
             Exhibition fully working System
         </div>
@@ -31,10 +31,10 @@ Check codes for Image processing and control along with ESP32 codes in this [rep
 
 <div class="text-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/img_processing/data_flow_diagram.png" title="Data flow diagram" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/img_processing/data_flow_diagram.png" title="Data flow diagram" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/img_processing/workflow.png" title="Workflow" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/img_processing/workflow.png" title="Workflow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -43,10 +43,10 @@ Check codes for Image processing and control along with ESP32 codes in this [rep
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/img_processing/hardware1.png" title="Up" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/img_processing/hardware1.png" title="Up" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/img_processing/hardware2.png" title="Hold" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/img_processing/hardware2.png" title="Hold" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -74,7 +74,7 @@ Check codes for Image processing and control along with ESP32 codes in this [rep
 <!-- Add video without sound -->
 <div class="row mt-3 justify-content-center">
     <div class="col-sm-12 text-center mt-3 mt-md-0">
-        {% include video.html path="assets/video/img_processing/demonstration_team_27.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid path="assets/video/img_processing/demonstration_team_27.mp4" class="img-fluid rounded z-depth-1" controls=true %}
         <div class="caption">
             Demonstration of different scenarios
         </div>
@@ -82,6 +82,7 @@ Check codes for Image processing and control along with ESP32 codes in this [rep
 </div>
 
 **Team members**
+
 - [Kareem Okasha](https://www.linkedin.com/in/kareem-okasha-872846237/),
 - Khaled Zaky,
 - [Mohamed Shaban](https://www.linkedin.com/in/mohamed-shaban-mshaban/),
@@ -89,6 +90,7 @@ Check codes for Image processing and control along with ESP32 codes in this [rep
 - Hadi Elnemr
 
 **Course Instructors**
+
 - [Dr. Omar Shehata](https://ieeexplore.ieee.org/author/37085351339)
 - [M.Sc. Dalia Mamdouh](https://scholar.google.com/citations?user=w9-h9uUAAAAJ&hl=en)
 - [M.Sc. Mai Mira](https://eg.linkedin.com/in/mai-mira-b25303129)

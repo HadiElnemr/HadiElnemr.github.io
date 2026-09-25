@@ -6,6 +6,7 @@ img: /assets/img/lanelevelmm.png
 importance: 1
 category: Bachelor Thesis
 ---
+
 <!--- <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/mctr_project/robot.png' | relative_url }}" alt="" title="example image"/>
 <div class="caption">
    Our robot, "HAD"
@@ -13,7 +14,9 @@ category: Bachelor Thesis
 
 <!-- <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6972286553670746113" height="762" width="504" frameborder="0" allowfullscreen="true" title="Embedded post" scrolling="no" ></iframe> -->
 
-My bachelor thesis was titled *Lane-level Map Matching for Model-scale Vehicles*, where I did it at the CPM Lab at <a href='https://www.rwth-aachen.de/'>RWTH Aachen</a>, Germany.
+My bachelor thesis was titled _Lane-level Map Matching for Model-scale Vehicles_, where I did it at the CPM Lab at <a href='https://www.rwth-aachen.de/'>RWTH Aachen</a>, Germany.
+
+<!-- prettier-ignore-start -->
 
 The **exposé** for my topic is here:
 <object data="https://hadielnemr.github.io/assets/pdf/Expose_Elnemr.pdf" type="application/pdf" width="750px" height="600px">
@@ -22,9 +25,13 @@ The **exposé** for my topic is here:
     </embed>
 </object>
 
+<!-- prettier-ignore-end -->
+
 <!-- <a href='https://embedded.rwth-aachen.de/doku.php?id=en:lehrstuhl:mitarbeiter:alrifaee'> -->
 <!-- https://embedded.rwth-aachen.de/doku.php?id=en:lehrstuhl:mitarbeiter:schaefer -->
-This opportunity was provided by <a href='https://www.unibw.de/cas/team/univ-prof-dr-ing-bassam-alrifaee'>Dr.-Ing. Bassam Alrifae</a> (now: Univ.-Prof. Dr.-Ing.) and my work was supervised by <a href='https://www.embedded.rwth-aachen.de/cms/embedded/der-lehrstuhl/mitarbeiteruebersicht/~bfleef/simon-schaefer/?allou=1'>Simon Schäfer M.Sc.</a>, and the work is done under the <a href='https://www.embedded.rwth-aachen.de/cms/embedded/forschung/~bflcvi/cyber-physical-mobility/?lidx=1'>Cyber-Physical Mobility Group</a>.
+
+This opportunity was provided by <a href='https://www.unibw.de/cas/team/bassam-alrifaee'>Dr.-Ing. Bassam Alrifae</a> (now: Univ.-Prof. Dr.-Ing.) and my work was supervised by <a href='https://www.embedded.rwth-aachen.de/cms/embedded/der-lehrstuhl/mitarbeiteruebersicht/~bfleef/simon-schaefer/?allou=1'>Simon Schäfer M.Sc.</a>, and the work is done under the <a href='https://www.embedded.rwth-aachen.de/cms/embedded/forschung/~bflcvi/cyber-physical-mobility/?lidx=1'>Cyber-Physical Mobility Group</a>.
+
 <!-- https://embedded.rwth-aachen.de/doku.php?id=en:forschung:mobility -->
 
 The map matching problem arises in the field of autonomous vehicles where the position of a vehicle is obtained using GNSS sensors on the vehicle.
@@ -37,6 +44,5 @@ An approach using Hidden Markov Model algorithm was implemented and tested by <a
 The work by Newson and Krumm is considered to be _road-level_ map matching.
 
 In this thesis, the objective is to implement the Hidden Markov Model algorithm so support _lane-level_ map matching using GNSS data and data acquired by the vehicle itself such the heading, yaw rate etc.
-
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6972286552882225152" allowfullscreen="" title="Embedded post" width="504" height="1102" frameborder="0"></iframe>
