@@ -1,13 +1,5 @@
 cv:
   sections:
-    General Information:
-      - label: Full Name
-        details: Hadi Elnemr
-      - label: Date of Birth
-        details: 1st February 2000
-      - label: Languages
-        details: Arabic, English, German
-
     Education:
       - institution: University of Stuttgart, Germany
         studyType: Master of Science in Information Technology (INFOTECH programme)
@@ -41,7 +33,7 @@ cv:
         start_date: 2026-02
         highlights:
           - "Research on discrete reachability analysis and applications."
-          - Teaching the Cyber-Physical Systems course (INHN0018) at TUM Heilbronn Campus, for Information Engineering Bachelor students.
+          - Giving the exercise sessions for the Cyber-Physical Systems course (INHN0018) at TUM Heilbronn Campus, for Information Engineering Bachelor students.
           - Supervising Bachelor thesis student(s)
 
       - position: Research assistant (HiWi)
