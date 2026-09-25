@@ -1,0 +1,3 @@
+# Sites that work but time out from GitHub Actions runners
+^https://www\.guc\.edu\.eg/
+^https://www\.unibw\.de/
