@@ -501,10 +501,111 @@ footer.sticky-bottom {
 
 // Repositories
 
+.repositories {
+  align-items: stretch !important;
+}
+
+.repo {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .repo {
     max-width: 50%;
   }
+}
+
+.gh-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 100%;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background-color: var(--global-card-bg-color);
+  color: var(--global-text-color);
+  text-align: left;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    text-decoration: none;
+    color: var(--global-text-color);
+  }
+}
+
+.gh-card-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  color: var(--global-theme-color);
+  overflow-wrap: anywhere;
+
+  i {
+    color: var(--global-text-color-light);
+  }
+}
+
+.gh-card-desc {
+  flex-grow: 1;
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--global-text-color-light);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--gh-desc-lines, 2);
+  line-clamp: var(--gh-desc-lines, 2);
+  overflow: hidden;
+
+  &:empty {
+    display: none;
+  }
+}
+
+.gh-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
+
+  &:empty {
+    display: none;
+  }
+}
+
+.gh-lang-dot {
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  vertical-align: -0.05rem;
+}
+
+.gh-user-card {
+  flex-direction: row;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.gh-user-avatar {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.gh-user-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.gh-user-login {
+  font-size: 0.875rem;
+  color: var(--global-text-color-light);
 }
 
 // Blog
